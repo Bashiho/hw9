@@ -1,0 +1,23 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+#date-display {
+    background-color: darkgreen;
+}
+
+#validation {
+    background-color: darkblue;
+}
+
+#math {
+    background-color: darkslateblue;
+}

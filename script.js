@@ -4,7 +4,7 @@ function dateDisplay() {
     var month = (1 + date.getMonth()).toString(), 
         day = date.getDate().toString(), 
         year = date.getFullYear().toString();
-    // Add 0's to beginning if needed for formatting
+    // Add 0's to beginning if needed for formatting, if statements/ternary operator
     month = month.length > 1 ? month : '0' + month;
     day = day.length > 1 ? day : '0' + day;
 
